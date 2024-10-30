@@ -1,0 +1,41 @@
+<div class="wrap">
+ <h2><!-- {admin_page_headline} --></h2>
+  
+  <div class="narrow">
+     <div class="formresponse">     	
+     	<!-- {formresponse_intro} -->
+     
+     	<p><!-- {info_text} --></p>
+     	<p><!-- {formresponse_countinfo} --></p>
+     
+     	<form action="<!-- {xml_to_pdf_url} -->?uid=<!-- {uid} -->" method="post" target="xyz">
+     
+     		<input type="hidden" name="xml_blog_data" value="<!-- {xml_blog_data} -->" />
+     		<input type="hidden" name="uid" value="<!-- {uid} -->" />
+     		<input type="hidden" name="zipped" value="<!-- {zipped} -->" />
+     		<input type="hidden" name="use_locale" value="<!-- {form_wordpress_locale} -->" />
+     		
+     		
+     		 <div id="selectPosts">
+           <!-- begin loop {all_posts} -->
+               <input type="checkbox" name="selectedPosts[]" id="selectedPosts<!-- {id} -->" value="<!-- {id} -->" checked="checked" /><a href="<!-- {item_url} -->" target="top"><!-- {title} --></a>
+           <!-- end loop -->
+            
+      		</div>
+     		<p><!-- {select_post_info_text} --></p>
+     
+     		<input type="submit" value="<!-- {formresponse_submit_text} -->" />
+     	</form> 
+     	
+     	<div id="promo">
+     	  <p><!-- {formresponse_nextsteps_text} --></p>
+          <img src="<!-- {promoimage_url} -->" />
+        </div>  
+        <div class="breaker"></div>     
+     	
+     </div>
+    
+  </div>
+</div>
+  
+  

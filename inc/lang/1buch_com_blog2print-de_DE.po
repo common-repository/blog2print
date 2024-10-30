@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1buch.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-27 15:44+0100\n"
+"PO-Revision-Date: 2008-10-27 16:08+0100\n"
+"Last-Translator: Kai-Ingo Neumann <kai-ingo.neumann@1buch.com>\n"
+"Language-Team: 1buch.com <kai-ingo.neumann@1buch.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/1buch_com_blog2print_admin.php:98
+msgid " posts were found."
+msgstr "Beiträge gefunden."
+
+#: inc/1buch_com_blog2print_admin.php:263
+msgid " until "
+msgstr "bis"
+
+#: inc/1buch_com_blog2print_admin.php:263
+msgid " were selected "
+msgstr "wurden ausgewählt"
+
+#: inc/1buch_com_blog2print_admin.php:220
+#: inc/1buch_com_blog2print_admin.php:229
+msgid " were selected."
+msgstr "wurden ausgewählt."
+
+#: inc/1buch_com_blog2print_admin.php:179
+msgid "Add the author for your book"
+msgstr "Autor für das Weblog Buch"
+
+#: inc/1buch_com_blog2print_admin.php:178
+msgid "Add the title for your book"
+msgstr "Titel für das Weblog Buch"
+
+#: inc/1buch_com_blog2print_admin.php:190
+msgid "After completing this process you can download a generated PDF file (for free) or order a real book directly."
+msgstr "Am Ende des Prozesses können Sie ein erzeugtes PDF File kostenlos herunterladen - oder aber ein gedrucktes Buch Ihres Weblogs bestellen."
+
+#: inc/1buch_com_blog2print_admin.php:220
+#: inc/1buch_com_blog2print_admin.php:229
+#: inc/1buch_com_blog2print_admin.php:263
+msgid "All items from "
+msgstr "Alle Beiträge vom"
+
+#: inc/1buch_com_blog2print_admin.php:268
+msgid "All items were selected."
+msgstr "Es wurden alle Beiträge ausgewählt."
+
+#: inc/1buch_com_blog2print_admin.php:182
+msgid "All weblog items"
+msgstr "Alle Weblog Beiträge"
+
+#: 1buch_com_blog2print.php:53
+msgid "Blog2Print by 1Buch.com - Create a book based on your weblog"
+msgstr "Blog2Print von 1Buch.com - Erstellen Sie ein Buch aus Ihrem Weblog"
+
+#: inc/1buch_com_blog2print_admin.php:183
+msgid "Current year"
+msgstr "Aktuelles Jahr"
+
+#: inc/1buch_com_blog2print_admin.php:189
+msgid "Go!"
+msgstr "Start!"
+
+#: inc/1buch_com_blog2print_admin.php:186
+msgid "Items from"
+msgstr "Beiträge vom"
+
+#: inc/1buch_com_blog2print_admin.php:187
+msgid "Items until"
+msgstr "Beiträge bis"
+
+#: inc/1buch_com_blog2print_admin.php:184
+msgid "Last year"
+msgstr "Letztes Jahr"
+
+#: inc/1buch_com_blog2print_admin.php:75
+msgid "Not enough items were found to create a book"
+msgstr "Es wurden nicht genügend Beiträge gefunden, um ein Buch zu erstellen."
+
+#: 1buch_com_blog2print.php:74
+msgid "Please add the title and the author for your book"
+msgstr "Bitte geben Sie Ihrem Buch einen Titel und benennen Sie einen (oder mehrere) Autoren"
+
+#: inc/1buch_com_blog2print_admin.php:188
+msgid "Publish comments too"
+msgstr "Kommentare auch in das Buch übernehmen"
+
+#: inc/1buch_com_blog2print_admin.php:180
+msgid "Select the items to be included in your book"
+msgstr "Wählen Sie die Beiträge aus, die in Ihrem Buch erscheinen sollen"
+
+#: inc/1buch_com_blog2print_admin.php:97
+msgid "The data to create a book based on your weblog are collected now."
+msgstr "Alle Beiträge für Ihr Buch sind nun zusammengestellt."
+
+#: inc/1buch_com_blog2print_admin.php:100
+msgid "This form submits your article data to the 1buch.com server to create the book PDF file.<br /><br />You can download the generated PDF file (for free) or can order a real book directly on 1buch.com"
+msgstr "Dieses Formular sendet die Daten Ihrer Weblogbeiträge an den 1buch.com Server, damit diese dort als PDF formatiert werden. Sie können danach das erstellte PDF kostenlos herunterladen oder auch eine gedruckte Ausgabe bei 1buch.com bestellen."
+
+#: inc/1buch_com_blog2print_admin.php:177
+msgid "This plugin offers the possibility to create a book based on your weblog."
+msgstr "Mit diesem Plugin können Sie ein Buch mit den Inhalten Ihres Weblogs erstellen."
+
+#: inc/1buch_com_blog2print_admin.php:98
+msgid "Totally "
+msgstr "Insgesamt"
+
+#: inc/1buch_com_blog2print_admin.php:99
+msgid "View book preview"
+msgstr "Buchvorschau erzeugen"
+
+#: inc/1buch_com_blog2print_admin.php:96
+#: inc/1buch_com_blog2print_admin.php:176
+msgid "Your blog as book"
+msgstr "Ihr Weblog als Buch"
+
+#: 1buch_com_blog2print.php:54
+msgid "Your weblog as book"
+msgstr "Ihr Weblog als Buch"
+
+#: inc/1buch_com_blog2print_admin.php:185
+msgid "or"
+msgstr "oder"
+
+#: inc/1buch_com_blog2print_admin.php:181
+msgid "select a fixed period"
+msgstr "festen Zeitraum wählen"
+

@@ -1,0 +1,97 @@
+<div class="wrap">
+  <h2><!-- {admin_page_headline} --></h2>
+  
+  <div class="narrow">
+    
+     <form id="blog2printform" name="blog2printform" onsubmit="return checkData();" method="post">
+   
+       <p><!-- {admin_intro} --></p>
+       
+      <label for="booktitle"><span class="steps">1. </span><!-- {form_book_title} --></label>
+      <input type="text" name="booktitle" />      
+      
+      <label for="bookauthor"><span class="steps">2. </span><!-- {form_book_author} --></label>
+      <input type="text" name="bookauthor" />
+      
+      <h4><span class="steps">3. </span><!-- {form_select_period} --></h4>
+      <div class="fixedPeriod">      	
+       	<select name="period">
+         	<option value="empty" selected>--- <!-- {form_select_period_fixed} --> ---</option>
+         	<option value="all"><!-- {form_select_period_fixed_all_items} --></option>
+         	<option value="current_year"><!-- {form_select_period_current_year} --></option>
+          	<option value="last_year"><!-- {form_select_period_last_year} --></option>
+      	</select>
+      	<p><b><!-- {or} -->:</b></p>
+      </div>
+      
+      
+      
+      <div class="selectPeriod">
+        <p><!-- {form_items_start} -->:</p>
+      	<select name="startDay">
+      	  <option value="empty" selected>--</option>
+          <!-- begin loop {period_days} -->
+         <option value="<!-- {value} -->"><!-- {name} --></option>
+         <!-- end loop -->
+      	</select>
+      	<select name="startMonth">
+      	  <option value="empty" selected>-------</option>
+          <!-- begin loop {period_month} -->
+            <option value="<!-- {value} -->"><!-- {name} --></option>
+         <!-- end loop -->
+      	</select>
+      	<select name="startYear">
+      	  <option value="empty" selected>----</option>
+          <!-- begin loop {period_years} -->
+            <option value="<!-- {value} -->"><!-- {name} --></option>
+         <!-- end loop -->
+      	</select>
+      </div>
+      
+      <div class="selectPeriod">
+        <p><!-- {form_items_end} -->:</p>
+      	<select name="endDay">
+      	   <option value="empty" selected>--</option>
+           <!-- begin loop {period_days} -->
+         <option value="<!-- {value} -->"><!-- {name} --></option>
+         <!-- end loop -->
+      	</select>
+      	<select name="endMonth">
+      	  <option value="empty" selected>------</option>
+         <!-- begin loop {period_month} -->
+            <option value="<!-- {value} -->"><!-- {name} --></option>
+         <!-- end loop -->
+      	</select>
+      	<select name="endYear">
+      	   <option value="empty" selected>----</option>
+           <!-- begin loop {period_years} -->
+         <option value="<!-- {value} -->"><!-- {name} --></option>
+         <!-- end loop -->
+      	</select>
+      </div>
+         
+      
+      <div id="selectComments">
+         <input type="checkbox" name="printComments" checked="checked" /> <!-- {form_publish_comments} -->
+      </div>
+      
+       <div >
+         <input type="checkbox" name="saveXML"  /> <!-- {form_save_xml} -->
+       </div>
+      
+      
+      <input type="hidden" name="sendBlog" value="1" />
+      <br />
+      <input type="submit" value="<!-- {form_submit_text} -->" />
+      
+              
+       
+       <p><!-- {form_disclaimer} --></p>
+       
+       
+    </form>
+  </div>
+
+
+
+</div>

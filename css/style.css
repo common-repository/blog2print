@@ -1,0 +1,80 @@
+#blog2print {
+   margin: 10px 20px;
+}
+
+#blog2printform input {
+  display: block;
+ 
+}
+
+
+form#blog2printform {
+   margin: 10px 20px 10px 50px;
+}
+form#blog2printform label {
+   display: block;
+   margin: 10px 0 3px 0;
+   font-weight: bold;	
+}
+
+.steps {
+   font-size: 18px;
+   width: 40px;
+   float:left;
+   display: block;
+}
+
+form#blog2printform .fixedPeriod,
+form#blog2printform .selectPeriod {
+   margin-left: 50px;	
+}
+
+.formresponse {
+   margin: 20px 20px 10px 50px;
+}
+#promo p {
+   float:left;
+   width: 300px;
+   height: 160px;
+}
+#promo img {
+   float:left;
+   position: relative;
+   top: -20px;
+   
+   margin: 0px;
+   padding: 0 0 5px 5px;
+}
+#blog2print .breaker {
+  clear: both;
+}
+ #selectComments {
+ 
+	margin-top: 10px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.narrow {
+  margin: 0;
+}
+.narrow {
+   width: 700px;
+}
+#selectPosts {
+  width: 550px;
+  height: 200px;
+  overflow: scroll;
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px 0 0 0;
+}
+#selectPosts input {
+   float: left;
+   clear: both;
+   margin: 0 5px 0 0;
+   
+}
+#selectPosts a {
+   float: left;
+}
